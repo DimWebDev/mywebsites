@@ -1,0 +1,20 @@
+div:hover {
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 0;
+
+
+
+}
+
+div {
+	width: 50%;
+	margin:0 4em 0 4em;
+	background-color: white;
+	color: blue;
+	font-size: 20px;
+
+}

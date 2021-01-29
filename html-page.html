@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Basics</title>
+ 	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Asap&family=Carter+One&display=swap');
+	</style> 
+	<link rel="stylesheet" type="text/css" href="html-page.css">
+</head>
+<body>
+	<header><h1>HTML BASICS</h1></header>
+	<div id="flex">
+		<p class="item1">
+		Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+		HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as < img /> and < input /> directly introduce content into the page. Other tags such as < p > surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+  		HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
+		There are several types of markup elements used in HTML:Structural markup indicates the purpose of textFor example, < h2>Golf</ h2> establishes "Golf" as a second-level heading. Structural markup does not denote any specific rendering, but most web browsers have default styles for element formatting. Content may be further styled using Cascading Style Sheets (CSS).[72]Presentational markup indicates the appearance of the text, regardless of its purposeFor example, < b>bold text</ b> indicates that visual output devices should render "boldface" in bold text, but gives little indication what devices that are unable to do this (such as aural devices that read the text aloud) should do. In the case of both < b>bold text</ b > and < i>italic text</ i>, there are other elements that may have equivalent visual renderings but that are more semantic in nature, such as < strong>strong text</ strong> and < em> emphasized text</ em> respectively. 
+		<p class="item2">
+		 It is easier to see how an aural user agent should interpret the latter two elements. However, they are not equivalent to their presentational counterparts: it would be undesirable for a screen-reader to emphasize the name of a book, for instance, but on a screen such a name would be italicized. Most presentational markup elements have become deprecated under the HTML 4.0 specification in favor of using CSS for styling.AttributesMain article: HTML attributeMost of the attributes of an element are name-value pairs, separated by = and written within the start tag of an element after the element's name. The value may be enclosed in single or double quotes, although values consisting of certain characters can be left unquoted in HTML (but not XHTML).[73][74] Leaving attribute values unquoted is considered unsafe.[75] In contrast with name-value pair attributes, there are some attributes that affect the element simply by their presence in the start tag of the element,[6] like the ismap attribute for the img element.[76]There are several common attributes that may appear in many elements :
+		The id attribute provides a document-wide unique identifier for an element. This is used to identify the element so that stylesheets can alter its presentational properties, and scripts may alter, animate or delete its contents or presentation. Appended to the URL of the page, it provides a globally unique identifier for the element, typically a sub-section of the page. 
+   		The class attribute provides a way of classifying similar elements. This can be used for semantic or presentation purposes. For example, an HTML document might semantically use the designation <  class="notation"> to indicate that all elements with this class value are subordinate to the main text of the document. In presentation, such elements might be gathered together and presented as footnotes on a page instead of appearing in the place where they occur in the HTML source. Class attributes are used semantically in microformats. Multiple class values may be specified; for example < class="notation important"> puts the element into both the notation and the important classes.
+   		An author may use the style attribute to assign presentational properties to a particular element. It is considered better practice to use an element's id or class attributes to select the element from within a stylesheet, though sometimes this can be too cumbersome for a simple, specific, or ad hoc styling.
+   		The title attribute is used to attach subtextual explanation to an element. In most browsers this attribute is displayed as a tooltip.
+    	The lang attribute identifies the natural language of the element's contents, which may be different from that of the rest of the document. For example, in an English-language document: 
+		</p>
+	</div>
+</body>
+</html>

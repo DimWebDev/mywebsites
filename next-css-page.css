@@ -1,0 +1,40 @@
+body {
+	background-image: url("img3.jpg");
+	background-size: cover;
+
+	
+
+}
+
+#header {
+	color: blue;
+	text-align: center;
+	font-size: 3em;
+	letter-spacing: 0.7em;
+	font-family: sans-serif;
+	background-color: white;
+	margin: 0 4em 0 4em;
+	border-radius: 20px;
+}
+
+#header:hover {
+	background: linear-gradient(45deg, rgb(110, 12, 130), rgb(14, 31, 181), rgb(110, 12, 130));
+	color: white;
+}
+
+.section {
+	margin: auto 10em auto 10em;
+	padding: 2em 10em 0em 10em;
+	box-sizing: border-box;
+	color: white;
+	background-color: rgba(116, 39, 179, 0.5);
+	line-height: 1em;
+	letter-spacing: 5px;
+	border-radius: 15px;
+	text-align: justify;
+}
+
+.section:hover {
+	background: linear-gradient(45deg, rgb(110, 12, 130), rgb(14, 31, 181), rgb(110, 12, 130));
+	color: white;
+}
